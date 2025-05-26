@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    gap: 2rem;
+    color: white;
+
+    &__date,
+    &__time {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        select {
+            width: 100%;
+            color: #666970;
+            border: 1px solid #666970;
+            border-radius: 12px;
+            margin: .5rem 0;
+            padding: .8rem 1rem;
+
+            option {
+                color: white;
+            }
+        }
+
+    }
+}
