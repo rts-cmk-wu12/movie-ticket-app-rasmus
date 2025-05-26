@@ -1,0 +1,22 @@
+.cinema{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+
+    p{
+
+    }
+
+    select{
+        color: #666970;
+        border: 1px solid #666970;
+        border-radius: 12px;
+        margin: .5rem 0;
+        padding: .8rem 1rem;
+
+        option{
+            color: white;
+        }
+    }
+}
