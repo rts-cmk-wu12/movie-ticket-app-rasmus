@@ -1,0 +1,21 @@
+.search {
+    display: flex;
+    background-color: #32363d;
+    border-radius: 10px;
+    padding: 1.5rem;
+    gap: 1rem;
+
+    &__icon {
+        background-color: #32363d;
+        color: #6f7277;
+        font-size: 1.5rem;
+    }
+
+    input{
+        background-color: #32363d;
+        color: #6f7277;
+        border: none;
+        font-size: 1.2rem;
+        outline: none;
+    }
+}

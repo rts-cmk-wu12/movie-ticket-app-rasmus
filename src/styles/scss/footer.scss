@@ -1,0 +1,21 @@
+footer {
+    margin-top: 1rem;
+    padding: 2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    nav {
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+
+            li {
+                font-size: 2rem;
+            }
+        }
+    }
+}

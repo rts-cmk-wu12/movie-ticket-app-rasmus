@@ -1,0 +1,48 @@
+.explore {
+padding-bottom: 4rem;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+        color: white;
+    }
+
+    &__list {
+        display: flex;
+        gap: 1rem;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+
+        &__item {
+            scroll-snap-align: center;
+            color: white;
+
+            img {}
+
+            h3 {}
+
+            p {}
+        }
+    }
+
+    &__trending {
+
+
+        &__list {
+
+            display: flex;
+            gap: 1rem;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+
+            &__item {
+                scroll-snap-align: center;
+                color: white;
+
+
+            }
+        }
+    }
+}
