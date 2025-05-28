@@ -1,0 +1,43 @@
+.coming-soon{
+
+
+    h2{
+        color: white;
+        margin: 1rem 0;
+    }
+
+    &__list{
+        display: flex;
+        gap: 1rem;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        
+
+        &__item{
+            scroll-snap-align: center;
+            width: 700px;
+
+            h3,p{
+                color: white;
+                line-height: 1.5rem;
+            }
+
+            h3{
+                font-size: 1.6rem;
+            }
+
+            p{
+                color: #afafaf;
+                font-weight: 600;
+            }
+
+            img{
+                width: 350px;
+                height: 230px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+    }
+}

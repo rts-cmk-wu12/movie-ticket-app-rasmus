@@ -1,0 +1,29 @@
+.cinema-near-you{
+    
+    h2{
+        color: white;
+        margin: 1rem 0;
+    }
+
+    &__list{
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        
+
+        &__item{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+
+            img{
+                max-width: 120px;
+            }
+
+            h3{
+                color: white;
+            }
+        }
+    }
+
+}

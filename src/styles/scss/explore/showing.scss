@@ -1,0 +1,28 @@
+.showing {
+    display: flex;
+    justify-content: center;
+    background-color: #32363d;
+    padding: 1rem;
+    border-radius: 10px;
+
+
+    &__button {
+        width: 100%;
+        height: 4rem;
+        color: white;
+
+        border: none;
+
+
+        &--one {
+            border-radius: 10px 0 0 10px;
+        }
+    
+        &--two {
+            border-radius: 0 10px 10px 0;
+        }
+    }
+
+
+
+}
