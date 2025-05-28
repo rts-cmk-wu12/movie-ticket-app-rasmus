@@ -26,7 +26,7 @@ function Footer() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to='details' style={({ isActive }) => ({
+                            <NavLink to='saved-plan' style={({ isActive }) => ({
                                 color: isActive ? '#54A8E5' : '#636882'
                             })}>
                                 <BsFillBookmarkDashFill />

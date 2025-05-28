@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import '../../src/styles/scss/header.scss';
 
 
-function Header({title, navigateReturn = true, bookmark = false, search = false, profileImg = false}) {
+function Header({title, toPage= -1, navigateReturn = true, bookmark = false, search = false, profileImg = false}) {
     const navigate = useNavigate();
     return ( 
         <>

@@ -1,4 +1,3 @@
-import '../styles/scss/index.scss';
 import Search from "../components/index/search";
 import Header from "../components/index/header";
 import ComingSoon from '../components/index/coming-soon';

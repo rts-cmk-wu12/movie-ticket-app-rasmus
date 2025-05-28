@@ -2,6 +2,7 @@
     
     h2{
         color: white;
+        margin: 1rem 0;
     }
 
     &__list{
@@ -12,9 +13,8 @@
 
         &__item{
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            gap: 1rem;
+            gap: 2rem;
 
             img{
                 max-width: 120px;

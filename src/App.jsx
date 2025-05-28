@@ -7,6 +7,7 @@ import Footer from './components/footer'
 import SelectSeat from './pages/select-seat'
 import Details from './pages/details'
 import Settings from './pages/settings'
+import Checkout from './pages/checkout'
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
         <Route path="explore" element={<Explore />} />
         <Route path="saved-plan" element={<SavedPlan />} />
         <Route path='select-seat' element={<SelectSeat/>}/>
-        <Route path='details' element={<Details/>}/>
+        <Route path='/details/:id' element={<Details/>}/>
         <Route path='settings' element={<Settings/>}/>
+        <Route path='checkout' element={<Checkout/>}/>
       </Routes>
     </main>
     <Footer className='footer'/>
