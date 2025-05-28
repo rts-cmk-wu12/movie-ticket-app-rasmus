@@ -1,0 +1,34 @@
+.all-seats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+
+    &__row {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: .5rem;
+
+        &--long {
+            grid-template-columns: repeat(8, 1fr);
+            gap: 1rem .5rem;
+        }
+    }
+
+}
+
+.seat-button {
+    border: 1px solid #666970;
+    border-radius: 10px;
+    padding: 1rem;
+
+    &:hover {
+        background-color: #666970;
+    }
+
+    &--saved {
+        background-color: #54a8e5 !important;
+    }
+
+}

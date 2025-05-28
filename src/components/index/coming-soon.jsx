@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import '../../styles/scss/index/coming-soon.scss';
+import { Link } from 'react-router-dom';
 
 function ComingSoon() {
 
@@ -28,17 +29,19 @@ function ComingSoon() {
             <div className='coming-soon'>
                 <h2>Coming Soon</h2>
                 <ul className='coming-soon__list'>
-                    {upComingMovies.map(movie => (
-                        <li className='coming-soon__list__item' key={movie.id}>
-                            <img
-                                src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
-                                alt={movie.title}
-                            />
-                            <h3>{movie.title}</h3>
-                            <p>{movie.release_date}</p>
-                        </li>
-                    ))}
-                </ul>
+    {upComingMovies.map(movie => (
+        <li className='coming-soon__list__item' key={movie.id}>
+            <Link to={`/details/${movie.id}`}>
+                <img
+                    src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
+                    alt={movie.title}
+                />
+                <h3>{movie.title}</h3>
+                <p>{movie.release_date}</p>
+            </Link>
+        </li>
+    ))}
+</ul>
             </div>
 
         </>
